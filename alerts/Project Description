@@ -51,6 +51,7 @@ datafile.json :
 >This url should return a list of children (any individual aged 18 or younger) living at this address.
 >The list should include the first and last name of each child, their age and a list of others
 >household members. If there is no child, this url may return an empty string
+Example http://localhost:8080/childAlert?address=1509+Culver+St
   
 **http://localhost:8080/phoneAlert?firestation={firestation_number}**
   
@@ -62,6 +63,7 @@ datafile.json :
 >This url must return the list of inhabitants living at the given address as well as the number
 >of firefighters serving it. The list should include name, phone number, age and background
 >medical (drugs, dosage and allergies) of each person
+Example http://localhost:8080/fire?address=748+Townings+Dr
   
 **http://localhost:8080/flood/stations?stations={list_of_station_numbers}**
   
@@ -74,6 +76,7 @@ datafile.json :
 >This url must return the name, address, age, email address and medical history (drugs,
 >dosage, allergies) of each inhabitant. If more than one person has the same name, they must
 >all appear.
+Example http://localhost:8080/personInfo?lastName=Cooper
   
 **http://localhost:8080/communityEmail?city={city}**
   

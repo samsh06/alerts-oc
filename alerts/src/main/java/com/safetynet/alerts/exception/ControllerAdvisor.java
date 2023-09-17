@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
-
 import com.safetynet.alerts.exception.firestation.NoFirestationFoundException;
 import com.safetynet.alerts.exception.person.NoChildFoundFromAddressException;
 import com.safetynet.alerts.exception.person.NoPersonFoundException;
