@@ -2,7 +2,6 @@ package com.safetynet.alerts.model.specific;
 
 import java.util.List;
 import java.util.Objects;
-
 import com.fasterxml.jackson.annotation.JsonView;
 import com.safetynet.alerts.controller.util.View;
 
